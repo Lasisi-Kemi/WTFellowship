@@ -14,24 +14,26 @@ body {
 .box-1 {
     background-color: #FFFDD0;
     flex-basis: 50%;
-    display: flex;
-    align-items: flex-start;
-    /*justify-content: center;*/
-    flex-direction: row;
 }
 
-.box-1>*:first-child {
+.dark {
     background-color: black;
-    margin: 20px;
-    padding: 2px;
-    align-self: flex-start;
-    color: white;
+    width: 150px;
+    height: 15px;
+    margin: 10px;
+    padding: 5px;
 }
 
-.box-1 .content-box {
-    align-self: center;
+.content-boxwrap {
     width: 100%;
-    max-width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-box {
     padding: 10px;
 }
 
@@ -43,7 +45,7 @@ body {
 
 .content-box button {
     background-color: white;
-    width: 81.5%;
+    width: 100%;
     padding: 8px;
     border: 1px solid #999fa1;
     border-radius: 6px;
