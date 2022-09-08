@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100%;
+	background-color: azure;
+	padding: 64px 16px 48px 16px;
+}
+
+.topsection {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.heading {
+	flex-basis: 100%;
+	margin-bottom: 24px;
+	font-size: 24px;
+	font-weight: 600px;
+	line-height: 28px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filterbtn {
+	background-color: white;
+	padding: 13px 16px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.subheading {
+	font-size: 14px;
+	line-height: 28px;
+	color: #6D6E73;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 1024px) {
+	.heading {
+		flex-basis: auto;
+	}
+
+	.filterbtn {
+		display: none;
+		margin-bottom: 0;
+	}
+}
+
+/*Class exercise css
+.wrapper {
+	background-color: red;
+	height: 200px;
+	color: white;
+}
+
+.notest {
+	display: none;
+}*/
+
+/*.container {
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	width: 300px;
+	height: 300px;
+}
+
+.box1 {
+	background-color: greenyellow;
+}
+
+.box2 {
+	background-color: purple;
+}
+
+.box3 {
+	background-color: yellow;
+}*/
+
+/*sytax
+@media (condition) {
+	style
+}*/
+
+/*https://www.figma.com/file/hMVtKRVHUxyY03knIrHkgG/MNTN---Landing-Page?node-id=1%3A2
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">*/
+
+/*@media (max-width:  375px) {
+	.wrapper{
+		background-color: blue;
+		display: none;
+	}
+
+	.notest {
+		display: block;
+	}
+	My own testing css
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.box {
+		width: 300px;
+		height: 300px;
+	}
+}*/
